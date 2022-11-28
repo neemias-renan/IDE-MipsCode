@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #1A1B1F;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    zoom: 80%;
+}
+
+.nav {
+    background: #1F2024;
+    box-shadow: 0px 4px 23px rgb(0 0 0 / 33%);
+    height: 79px;
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+    justify-content: space-between;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+.nav .div-left {
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+
+.nav .div-left .ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 67px;
+    color: #D0D0D0;
+}
+
+.nav .div-rigth {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.nav .div-rigth .avatar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.nav .div-rigth .avatar .perfil {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+
+li {
+    font-family: 'Inter', sans-serif;
+}
+
+.green-text {
+    color: #2EF2AA !important;
+}
+
+.text-body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #ECECEC;
+}
+
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+
+.main .div-left {
+    background: #141417;
+    width: 50%;
+    border-right: 1px solid #333333;
+    padding-top: 8em;
+}
+
+.main .div-left .code {
+    width: 87%;
+    height: 100%;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400 !important;
+    gap: 19.2px;
+
+}
+
+.main .div-left .code .index {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main .div-left .code .lines {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main .div-rigth {
+    background: #1A1B1F;
+    width: 50%;
+}
+
+
+
+
+
+.footer {
+    background: #1F2024;
+    border-top: 1px solid #333333;
+    height: 9.9280%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .div {
+    display: flex;
+    gap: 24px;
+    padding: 0px 70px;
+}
+
+.footer .div button {
+    border-radius: 5px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 2em;
+    gap: 10px;
+}
+
+.button-green {
+    background: rgba(46, 242, 170, 0.05);
+    border: 1px solid #2EF2AA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2EF2AA;
+}
+
+.button-white {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #FFFFFF;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
