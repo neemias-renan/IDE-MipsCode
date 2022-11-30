@@ -8,6 +8,11 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+
+    <script src="codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+
 </head>
 
 <body>
@@ -44,24 +49,15 @@
         </div>
     </nav>
 
-    <main class="main">
-        <div class="div-left">
-            <div class="code text-body">
-                <div class="index">
-                    <span>01</span>
-                </div>
-
-                <div class="lines" onkeyup="LineAndIndex()" onkeypress="LineAndIndex()">
-                    <div class="div_line" contenteditable="true"></div>
-                </div>
-                
-            </div>
+    <div class="code-container">
+        <div class="code-area">
+            <textarea class="codemirror-textarea code"></textarea>
         </div>
 
-        <div class="div-rigth">
-
+        <div class="code-area">
+            <textarea class="codemirror-textarea code"></textarea>
         </div>
-    </main>
+    </div>
 
     <footer class="footer">
         <div class="div">
