@@ -199,8 +199,11 @@
 .cm-s-default .cm-dot {
   color: #F4560C
 }
+.cm-variable{
+  color: #D91828;
+}
 
-.cm-s-default .cm-variable,
+.cm-s-default ,
 .cm-s-default .cm-punctuation,
 .cm-s-default .cm-property,
 .cm-s-default .cm-operator {}
@@ -211,7 +214,7 @@
 
 .cm-s-default .cm-variable-3,
 .cm-s-default .cm-type {
-  color: #085;
+  color: #2EF2AA;
 }
 
 .cm-s-default .cm-registers {
@@ -243,7 +246,7 @@
 }
 
 .cm-s-default .cm-builtin {
-  color: #30a;
+  color: #F4560C;
 }
 
 .cm-s-default .cm-bracket {
@@ -251,7 +254,7 @@
 }
 
 .cm-s-default .cm-tag {
-  color: #170;
+  color: #FFFFFF;
 }
 
 .cm-s-default .cm-attribute {
